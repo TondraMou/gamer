@@ -60,8 +60,18 @@
 .hero-btn1{
     background-color: #FF42A5;
     padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 700;
 }
 .hero-btn2{
     background-color: #4EC5F7;
     padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 700;
 }
