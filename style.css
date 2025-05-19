@@ -38,6 +38,10 @@
     border-radius: 10px;
     margin-right: 0px;
 }
+.hero-container{
+    background-image: url(./asset/Group\ 14.png);
+    background-repeat: no-repeat;
+}
 .hero-main{
     display: flex;
     width: 90%;
@@ -56,6 +60,14 @@
 }
 .goat{
     font-size: 60px;
+    background-image: linear-gradient(#FF42A5, #8758F1);
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+.hero-btn{
+    display: flex;
+    gap: 15px;
 }
 .hero-btn1{
     background-color: #FF42A5;
@@ -74,4 +86,9 @@
     margin-top: 15px;
     color: white;
     font-weight: 700;
+}
+.online-main{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
 }
