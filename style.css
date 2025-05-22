@@ -91,4 +91,64 @@
     width: 90%;
     margin: 0 auto;
     display: grid;
+    grid-template-areas: "a b c d";
+    gap: 15px;
+}
+.card1{
+    grid-area: a;
+}
+.card2{
+    grid-area: b;
+}
+.card3{
+    grid-area: c;
+}
+.card4{
+    grid-area: d;
+}
+.online-card{
+    width: 100%;
+    overflow: hidden;
+}
+.image-wrap {
+    position: relative;
+    width: 100%;
+}
+.image-wrap img{
+    width: 100%;
+    display: block;
+    transition: filter 0.3s ease;
+}
+.image-wrap img:hover{
+    filter: brightness(30%);
+}
+.watch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.555);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 2; 
+}
+.image-wrap:hover .watch{
+    opacity: 1;
+    pointer-events: auto;
+}
+.watch span{
+    font-size: 30px;
+    color: white;
+}
+.watch p{
+    color: #FF42A5;
+    font-weight: 800;
+    font-size: 20px;
 }
