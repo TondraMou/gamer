@@ -23,9 +23,6 @@
 .nav-left img{
     height: 30px;
 }
-.nav-right{
-
-}
 .nav-btn{
     background-color: transparent;
     border: none;
@@ -41,6 +38,7 @@
 .hero-container{
     background-image: url(./asset/Group\ 14.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .hero-main{
     display: flex;
@@ -93,6 +91,7 @@
     display: grid;
     grid-template-areas: "a b c d";
     gap: 15px;
+    margin-bottom: 100px;
 }
 .card1{
     grid-area: a;
@@ -151,4 +150,60 @@
     color: #FF42A5;
     font-weight: 800;
     font-size: 20px;
+}
+.play{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.play-left{
+    width: 40%;
+}
+.play-left h1{
+    font-size: 47px;
+}
+.play-right{
+    width: 40%;
+    position: relative;
+}
+.play-right img{
+    width: 100%;
+}
+.play-right .angela{
+    position: absolute;
+    width: 37%;
+    height: 37%;
+    bottom: -50px;
+    left: -100px;
+}
+.play-section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.playsection-right{
+    width: 40%;
+}
+.playsection-left{
+    width: 40%;
+    position: relative;
+}
+.playsection-right h1{
+    font-size: 47px;
+}
+.playsection-left img{
+    width: 100%;
+}
+.playsection-left .cat-card{
+    position: absolute;
+    width: 37%;
+    height: 37%;
+    bottom: -50px;
+    right: -100px;
 }
