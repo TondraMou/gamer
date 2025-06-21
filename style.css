@@ -256,6 +256,34 @@
     align-items: center;
     margin-left: 5%;
 }
+.career-l h2{
+    color: white;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 900;
+}
+.career-l p{
+    color: white;
+    margin-bottom: 16px;
+}
+.career-left{
+    display: flex;
+    justify-content: space-between;
+}
+.first-d p{
+    margin-bottom: 16px;
+    color: white;
+    font-weight: 600;
+}
+.career-btn{
+    background-color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    color: #FF42A5;
+    font-weight: 700;
+}
 .category{
     width: 90%;
     margin: 0 auto;
